@@ -56,7 +56,7 @@ group :development do
 	# Guard is a command line tool to easily handle events on file system modifications.
 	gem 'guard', '~> 2.16', '>= 2.16.2'
 	# Automatically reloads page when views are updated
-	gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
 	# Like forms but simple
 	gem 'simple_form', '~> 5.0', '>= 5.0.3'
 end
